@@ -19,7 +19,7 @@ const branchesSchema = new Schema(
       type: String,
     },
 
-    birthday: {
+     birthday: {
       type: Date,
       require: true,
       min: 0,
